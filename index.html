@@ -33,52 +33,73 @@
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
-</nav>
-<!-- carousel begins -->
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
+	</nav>
+	<!-- carousel begins -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active" id="wood-bg">
-			<div class="flex-wrapper">
-      	<img src="img/logo-01.png" alt="Cutlery Logo" class="img-responsive  center-block" id="carousel-logo">
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active" id="wood-bg">
+				<div class="flex-wrapper">
+	      	<img src="img/logo-01.png" alt="Cutlery Logo" class="img-responsive  center-block" id="carousel-logo">
+				</div>
+	    </div>
+	    <div class="item" id="seating-bg">
+	      <div class="carousel-caption">
+	        <!-- (h4>{Eat Local.})+p>lorem27 -->
+					<h2>Eat Local.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident id unde libero exercitationem eum suscipit, iste, reiciendis beatae culpa placeat et aperiam rem molestias ratione, ea. Cumque.</p>
+					<!-- button.btn.btn-lg.btn-warning>{Learn more} -->
+					<button class="btn btn-lg btn-warning">Learn more</button>
+	      </div>
+	    </div>
+			<div class="item" id="farm-bg">
+	      <div class="carousel-caption">
+					<h2>From farm to table.</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident id unde libero exercitationem eum suscipit, iste, reiciendis beatae culpa placeat et aperiam rem molestias ratione, ea. Cumque.</p>
+					<button class="btn btn-lg btn-warning">Browse gallery</button>
+	      </div>
+	    </div>
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<!-- carousel ends -->
+	<!-- story section -->
+	<!-- .container>.row>(.col-sm-6>(h1>{Our Story})+h3>{One Man. One Dream.})+.col-sm-6>(h1.year-text>{1989})+(p>lorem)*4 -->
+	<div class="container about">
+		<div class="row">
+			<div class="col-sm-6 story">
+				<h1>Our Story</h1>
+				<h3>One Man. One Dream.</h3>
 			</div>
-    </div>
-    <div class="item" id="seating-bg">
-      <div class="carousel-caption">
-        <!-- (h4>{Eat Local.})+p>lorem27 -->
-				<h2>Eat Local.</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident id unde libero exercitationem eum suscipit, iste, reiciendis beatae culpa placeat et aperiam rem molestias ratione, ea. Cumque.</p>
-				<!-- button.btn.btn-lg.btn-warning>{Learn more} -->
-				<button class="btn btn-lg btn-warning">Learn more</button>
-      </div>
-    </div>
-		<div class="item" id="farm-bg">
-      <div class="carousel-caption">
-				<h2>From farm to table.</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident id unde libero exercitationem eum suscipit, iste, reiciendis beatae culpa placeat et aperiam rem molestias ratione, ea. Cumque.</p>
-				<button class="btn btn-lg btn-warning">Browse gallery</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-<!-- carousel ends -->
+			<div class="col-sm-6 year">
+				<h1 class="year-text">1989</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem nisi officia totam, magnam veniam dolore amet voluptatem nostrum assumenda vel ad voluptate, deleniti tenetur cupiditate, ab, eos soluta iure adipisci?</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem nisi officia totam, magnam veniam dolore amet voluptatem nostrum assumenda vel ad voluptate, deleniti tenetur cupiditate, ab, eos soluta iure adipisci?</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem nisi officia totam, magnam veniam dolore amet voluptatem nostrum assumenda vel ad voluptate, deleniti tenetur cupiditate, ab, eos soluta iure adipisci?</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem nisi officia totam, magnam veniam dolore amet voluptatem nostrum assumenda vel ad voluptate, deleniti tenetur cupiditate, ab, eos soluta iure adipisci?</p>
+			</div>
+		</div>
+	</div>
+	<!-- story section ends -->
+	<!-- review section -->
+	
+	<!-- review section ends -->
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
