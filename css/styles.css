@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lobster|Playfair+Display');
-
+/* UNIVERSAL */
+* {
+  transition-duration: 0.2s;
+}
+.min-height {
+  min-height: 600px;
+}
+.primary-font {
+  font-family: 'Lobster', serif;
+}
+.secondary-font {
+  font-family: 'Raleway', Sans-Serif;
+}
+.white-text {
+  color: #FFFFFF;
+}
+.orange-text {
+  color: #F8512F;
+}
+.thin-text {
+  font-weight: 300;
+}
+.thick-text {
+  font-weight: 700;
+}
+.orange-bg {
+  background-color: #F8512F;
+}
 /*navbar styles*/
 
 .navbar-inverse {
@@ -101,6 +128,7 @@
   height: 550px;
   background-image: url('../img/food_review.jpg');
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .wrapper {
