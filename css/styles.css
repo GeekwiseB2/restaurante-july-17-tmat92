@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lobster|Playfair+Display');
+
 /*navbar styles*/
 
 .navbar-inverse {
@@ -60,4 +62,62 @@
 
 #farm-bg {
   background-image: url('../img/farm-2.jpg');
+}
+
+/*story styles*/
+
+.about {
+  padding: 100px 0px;
+}
+.story>h1 {
+  font-family: 'Lobster', cursive;
+  color: #f8512f;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 80px;
+}
+.story>h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.year>p {
+  font-family: 'Lato', sans-serif;
+}
+
+.year-text {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  z-index: 0;
+  font-weight: bold;
+  font-size: 150px;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+/*review styles*/
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.wrapper>.container>h1 {
+  font-family: 'Lobster', cursive;
+  color: #f8512f;
+  text-shadow: 2px 2px 2px #000;
+  font-size: 80px;
+}
+
+.wrapper>.container>p{
+  /*text-align: center;*/
+  /*font-family: 'Lato', sans-serif;*/
+  color: #fff;
+  font-weight:200;
+  font-size: 30px;
 }
