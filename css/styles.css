@@ -121,7 +121,36 @@
 }
 
 /*review styles*/
-.review {
+/*in class section*/
+#review {
+  background-image: url(../img/food_review.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#review .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-container {
+  padding: 10px 15px;
+  background-color: rgba(20, 20, 20, 0.6);
+  border-radius: 4px;
+}
+
+.review-container h1 {
+  font-size: 5em;
+  text-shadow: 1px 1px 5px #0a0a0a
+}
+
+.review-container p {
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a
+}
+/*in class section ends*/
+/*.review {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,9 +172,8 @@
 }
 
 .wrapper>.container>p{
-  /*text-align: center;*/
-  /*font-family: 'Lato', sans-serif;*/
   color: #fff;
   font-weight:200;
   font-size: 30px;
-}
+}*/
+/*menu styles*/
