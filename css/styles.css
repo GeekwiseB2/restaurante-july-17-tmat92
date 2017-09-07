@@ -176,4 +176,26 @@
   font-weight:200;
   font-size: 30px;
 }*/
-/*menu styles*/
+ /*menu styles*/
+#menu {
+  background-image: url(../img/black_linen.png);
+}
+
+#menu h1 {
+  font-size: 5em;
+}
+
+.food-item {
+  background-color: #fff;
+  padding: 8px 6px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu .nav-tabs>li>a {
+  color: #F8512F;
+  font-weight: bold;
+}
+
+#menu .nav-tabs>li>a:hover {
+  background-color: rgba(255,255,255, .2);
+  border: transparent;
+}
